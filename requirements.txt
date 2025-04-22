@@ -1,0 +1,10 @@
+selenium
+pytest
+pytest-html
+pytest-xdist
+openpyxl
+allure-pytest
+webdriver-manager
+pytest-metadata
+python-dotenv
+requests
