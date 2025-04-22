@@ -31,7 +31,6 @@ class Test_003_Logout:
             login_button = self.driver.find_element(By.XPATH, self.lp.btn_login_xpath)
             if login_button.is_displayed():
                 self.logger.info("*** Logout test passed - Login page verified ***")
-                #self.driver.save_screenshot("./OrangeHRM_Automation/Screenshots/test_logout_passed.png")
                 assert True
             else:
                 self.logger.error("*** Logout test failed - Login page not displayed  ***")
