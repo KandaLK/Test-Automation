@@ -5,6 +5,9 @@ from Utilities.ReadProperties import ReadConfig
 from Utilities.Logger import LogGen
 from Utilities.WaitUtils import WaitUtils
 
+# Test case for logging out of the application
+# This test case verifies that the user can successfully log out of the application and return to the login page.
+
 class Test_003_Logout:
     baseURL = ReadConfig.getApplicationURL()
     username = ReadConfig.getUserName()
