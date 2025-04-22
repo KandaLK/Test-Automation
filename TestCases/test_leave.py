@@ -1,9 +1,9 @@
-from Utilities.waitUtils import WaitUtils
+from Utilities.WaitUtils import WaitUtils
 from PageObjects.LoginPage import Login
 from PageObjects.DashboardPage import Dashboard
 from PageObjects.LeavePage import Leave
-from Utilities.readProperties import ReadConfig
-from Utilities.custom_logger import LogGen
+from Utilities.ReadProperties import ReadConfig
+from Utilities.Logger import LogGen
 
 # MY LEAVE PAGE TEST CASE 
 # This test case verifies the functionality of the My Leave page in the OrangeHRM application.

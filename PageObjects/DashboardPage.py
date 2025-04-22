@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from Utilities.waitUtils import WaitUtils
+from Utilities.WaitUtils import WaitUtils
 
 
 class Dashboard:
@@ -23,7 +23,7 @@ class Dashboard:
 
     def clickMyLeave(self):
         try:
-            # First try the quick launch area
+            
             quick_launch_elements = self.driver.find_elements(By.XPATH, self.quick_launch_area_xpath)
             
             if len(quick_launch_elements) > 0:
